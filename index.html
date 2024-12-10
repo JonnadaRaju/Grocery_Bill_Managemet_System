@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grocery Bill Management System</h1>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+
+        <div id="content">
+            <div id="items-list">
+                <h2>Available Items</h2>
+                <div id="items" class="items-grid">
+                </div>
+            </div>
+
+            <!-- Cart Section -->
+            <div id="bill-section">
+                <h2>Your Cart</h2>
+                <table id="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity (kg)</th>
+                            <th>Price (Rs)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <p>Total Price: Rs <span id="total-price">0</span></p>
+                <p>GST (5%): Rs <span id="gst">0</span></p>
+                <p>Final Price: Rs <span id="final-price">0</span></p>
+                <button onclick="generateBill()">Generate Bill</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
