@@ -24,6 +24,7 @@ An interactive and responsive web application that allows users to select grocer
   - Event listeners for user interactions.
 
 grocery-store/
+
 ├── index.html     
 ├── style.css       
 ├── script.js       
