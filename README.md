@@ -1,4 +1,4 @@
-# Grocery Store Web Application
+# Grocery Bill Management System
 
 An interactive and responsive web application that allows users to select grocery items, specify quantities, view their cart, and calculate the total cost including GST. This project demonstrates the integration of HTML, CSS, and JavaScript to create a dynamic and user-friendly interface.
 
