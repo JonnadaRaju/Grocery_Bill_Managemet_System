@@ -68,6 +68,4 @@ function removeFromCart(index) {
 function generateBill() {
     alert("Thank you for shopping! Your bill has been generated.");
 }
-
-// Initialize items on page load
 displayItems();
