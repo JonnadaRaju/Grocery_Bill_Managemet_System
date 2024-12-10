@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #f8ffae, #43c6ac);
@@ -7,8 +6,6 @@ body {
     padding: 0;
     color: #333;
 }
-
-/* Container */
 .container {
     width: 90%;
     margin: auto;
@@ -19,13 +16,12 @@ body {
     margin-top: 20px;
 }
 
-/* Header */
+
 h1 {
     text-align: center;
     color: #2c3e50;
 }
 
-/* Content Layout */
 #content {
     display: flex;
     gap: 20px;
@@ -36,14 +32,12 @@ h1 {
     flex: 1;
 }
 
-/* Item Grid */
 .items-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
 
-/* Shared Styles */
 .item-card, #bill-section {
     background: #f9f9f9;
     border-radius: 8px;
@@ -51,7 +45,6 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Item Cards */
 .item-card img {
     width: 100%;
     height: 120px;
@@ -80,7 +73,6 @@ h1 {
     background: #2980b9;
 }
 
-/* Cart Table */
 #cart-table {
     width: 100%;
     border-collapse: collapse;
@@ -108,9 +100,3 @@ h1 {
     background: #c0392b;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    #content {
-        flex-direction: column;
-    }
-}
